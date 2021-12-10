@@ -1,6 +1,6 @@
 
 const baseUrl = 'https://api.spotify.com/v1/search?'
-var accessToken = "BQAGNbSB4Gq7BFCg9X1jiISK8xeiAo9PkflyeVy4AYD94jz-zZ9qIEcPnrQcUbPGWt5GzJm2zXD9stAut4mXgydKwW5M36BpxNXjA3mZKqISwkgX5lZ0eNyiUimtovQhImOucgH-kKY3dtCwNxwAFVPcQJEdpEc";
+var accessToken = "BQAIsSI3ZYthy9DH8HprsLUAwlGjHWRYOUF3oHxWvCigjENNDpQgnsN4mxUGv6iGlgNUTTH4nWKxBUxF5JYOsYaHqB3l4BTl9Eia_KbOeH1LEXVtnQWV03jVHfaYxdZQ8ovXULuf-NIfc-MY-XD01ENLkXE4INY";
 
 
 function getArtists(){
@@ -80,9 +80,7 @@ function getArtists(){
   }
 
 
-  
- 
-  $('#get-artists').click(()=> {
+   $('#get-artists').click(()=> {
     getArtists();
   })
  
